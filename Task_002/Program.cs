@@ -4,11 +4,17 @@
 // 78 -> третьей цифры нет
 // 326791123 -> 6
 
-System.Console.Write ("Введите число:");
-int number = Convert.ToInt32 (Console.ReadLine ());
+Console.Write("Введите число:");
+int number = Convert.ToInt32(Console.ReadLine());
+var x = number.ToString();
 
 if (number < 100)
 {
-   System.Console.WriteLine ("Третьей цифры нет"); 
+    Console.WriteLine("Третьей цифры нет");
 }
+else
+{
+    Console.WriteLine(x[2]);
+}
+
 
