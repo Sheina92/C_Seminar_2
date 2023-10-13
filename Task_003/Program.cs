@@ -6,7 +6,7 @@
 Console.Write("Введите цифру, обозначающую день недели:");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number <= 5)
+if (number  >= 1 && number <= 5)
 {
     Console.WriteLine("Нет");
 }
